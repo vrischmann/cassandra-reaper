@@ -480,7 +480,7 @@ const repairForm = React.createClass({
                       </div>
                     </div>
                     <div className="form-group">
-                      <label htmlFor="in_parallism" className="col-sm-3 control-label">Parallism</label>
+                      <label htmlFor="in_parallism" className="col-sm-3 control-label">Parallelism</label>
                       <div className="col-sm-14 col-md-12 col-lg-9">
                         <select className="form-control" id="in_parallism"
                           onChange={this._handleChange} value={this.state.parallism}>
